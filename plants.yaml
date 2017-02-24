@@ -1,0 +1,154 @@
+---
+beet:
+    plants_north: 3
+    plants_west: 3
+    height: short
+    companion:
+    - corn
+    - garlic
+    - kohlrabi
+    - leek
+    - lettuce
+    - mint
+cucumber:
+    trellis: yes
+    size_north: 1
+    size_west: 4
+    plants_north: 1
+    plants_west: 2
+    height: tall
+    companion:
+    - asparagus
+    - pole_bean
+    - celery
+    - dill
+    - kohlrabi
+    - lettuce
+    - onion
+    - peas
+    - radish
+    - tomato
+    enemy:
+    - potato
+    - sage
+carrot:
+    plants_north: 4
+    plants_west: 4
+    height: short
+    companion:
+    - chives
+    - leeks
+    - lettuce
+    - onion
+    - pea
+    - pepper
+    - pole_bean
+    - radish
+    - rosemary
+    - sage
+    - tomato
+kohlrabi:
+    plants_north: 3
+    plants_west: 3
+    companion:
+    - beet
+    - cucumbers
+    - onions
+    enemy:
+    - pepper
+    - pole bean
+    - tomato
+lettuce:
+    plants_north: 4
+    plants_west: 4
+    companion:
+    - beet
+    - carrot
+    - celery
+    - chervil
+    - cucumber
+    - dill
+    - garlic
+    - onions
+    - radish
+    - spinach
+    - squash
+    - strawberry
+marigold:
+    plants_north: 4
+    plants_west: 4
+    height: short
+    enemy:
+    - pole_bean
+nasturtium:
+    plants_north: 4
+    plants_west: 4
+    height: short
+    companion:
+    - cucumber
+    - melon
+    - radish
+    - tomato
+onion:
+    plants_north: 4
+    plants_west: 4
+    height: short
+    companion:
+    - beet
+    - carrot
+    - dill
+    - kohlrabi
+    - leek
+    - lettuce
+    - strawberry
+    - tomato
+parsley:
+    height: short
+    plants_north: 1
+    plants_west: 1
+    companion:
+    - asparagus
+    - carrot
+    - chives
+    - corn
+    - onion
+    - tomato
+pole_bean:
+    trellis: yes
+    size_north: 1
+    size_west: 4
+    enemy:
+    - chives
+    - garlic
+    - leeks
+    - onions
+    - beet
+    companion:
+    - carrot
+    - celery
+    - chard
+    - corn
+    - cucumber
+    - eggplant
+    - peas
+    - potatoes
+    - radish
+pea:
+    trellis: yes
+    size_north: 1
+    size_west: 4
+    plants_north: 2
+    plants_west: 4
+    companion:
+    - bean
+    - carrot
+    - celery
+    - corn
+    - cucumber
+    - eggplant
+    - parsley
+    - pepper
+    - potato
+    - radish
+    - spinach
+    - turnip
